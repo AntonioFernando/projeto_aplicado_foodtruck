@@ -19,6 +19,27 @@
         "cells": [
           {
             "position": {
+              "x": 136.25,
+              "y": -290
+            },
+            "size": {
+              "width": 630,
+              "height": 150
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "037dbde9-4baa-4cee-a8d3-56840c4261d3",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": 395,
               "y": 80
             },
@@ -136,120 +157,6 @@
           },
           {
             "position": {
-              "x": 57.5,
-              "y": 500
-            },
-            "size": {
-              "width": 112.5,
-              "height": 60
-            },
-            "attrs": {
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "actor",
-            "zIndex": 2,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "39275c04-27ce-4f1f-9ab6-49a60fe8db0a"
-                },
-                {
-                  "group": "right",
-                  "id": "396271e5-9472-4ea6-96e7-69e9337c9b34"
-                },
-                {
-                  "group": "bottom",
-                  "id": "bb4c1b8d-3131-490a-a934-15f917009ffb"
-                },
-                {
-                  "group": "left",
-                  "id": "22226865-7c52-4b4e-825e-0e1514644c04"
-                }
-              ]
-            },
-            "id": "1b74965e-1ec1-4c9e-8cf2-7c268c2fb6d5",
-            "data": {
-              "type": "tm.Actor",
-              "name": "Actor",
-              "description": "",
-              "isTrustBoundary": false,
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "providesAuthentication": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
               "x": 156.25,
               "y": 366
             },
@@ -356,7 +263,7 @@
             "data": {
               "type": "tm.Actor",
               "name": "acesso inicial",
-              "description": "tática Mitr3 Attack ",
+              "description": "Conseguir credenciais de conta (usuário e senha) ",
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -367,8 +274,8 @@
           },
           {
             "position": {
-              "x": 513.75,
-              "y": -90
+              "x": 395,
+              "y": -70
             },
             "size": {
               "width": 112.5,
@@ -721,8 +628,8 @@
           },
           {
             "position": {
-              "x": 308.75,
-              "y": 500
+              "x": 155,
+              "y": 510
             },
             "size": {
               "width": 112.5,
@@ -835,126 +742,6 @@
               "providesAuthentication": false,
               "threats": []
             }
-          },
-          {
-            "position": {
-              "x": 208.75,
-              "y": 500
-            },
-            "size": {
-              "width": 60,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "or"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "02dff5e9-0052-4a63-8e86-025714d23277"
-                },
-                {
-                  "group": "right",
-                  "id": "f76f18c7-1267-4e7f-b5e4-a19f362d9ed0"
-                },
-                {
-                  "group": "bottom",
-                  "id": "b5fa0d4a-df35-45cf-947c-8a89f25a2f9a"
-                },
-                {
-                  "group": "left",
-                  "id": "4491a675-deff-47d2-b338-30046214cc88"
-                }
-              ]
-            },
-            "id": "fab74e40-41f2-4dd4-8c92-cb943d28150e",
-            "data": {
-              "type": "tm.Process",
-              "name": "or",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
-            },
-            "zIndex": 8
           },
           {
             "position": {
@@ -1071,6 +858,13 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -1344,8 +1138,8 @@
             },
             "vertices": [
               {
-                "x": 320,
-                "y": 460
+                "x": 211,
+                "y": 470
               }
             ]
           },
@@ -1547,7 +1341,7 @@
           },
           {
             "position": {
-              "x": 447.5,
+              "x": 282.5,
               "y": 614
             },
             "size": {
@@ -1664,7 +1458,7 @@
           },
           {
             "position": {
-              "x": 182.5,
+              "x": 22.5,
               "y": 614
             },
             "size": {
@@ -1673,7 +1467,7 @@
             },
             "attrs": {
               "text": {
-                "text": "phishing"
+                "text": "T1566"
               },
               "body": {
                 "stroke": "#333333",
@@ -1769,8 +1563,8 @@
             "zIndex": 12,
             "data": {
               "type": "tm.Actor",
-              "name": "phishing",
-              "description": "engenharia social \nobter senha",
+              "name": "T1566",
+              "description": "phishing, engenharia social \n",
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1781,7 +1575,7 @@
           },
           {
             "position": {
-              "x": 347.5,
+              "x": 181.25,
               "y": 614
             },
             "size": {
@@ -2255,8 +2049,8 @@
           },
           {
             "position": {
-              "x": 120,
-              "y": -119.99999999999993
+              "x": 92.5,
+              "y": -100
             },
             "size": {
               "width": 190,
@@ -2274,6 +2068,381 @@
             "data": {
               "type": "tm.Text",
               "name": "Árvore de ataque \nfood-truck",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 230,
+              "y": -245
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "dados pessoais"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "244173d4-940a-4a02-b7a4-1e45731ef59b"
+                },
+                {
+                  "group": "right",
+                  "id": "8d3bad24-8241-43e6-9610-794187b454fc"
+                },
+                {
+                  "group": "bottom",
+                  "id": "0cb9ffac-af43-4260-a914-db3fb2c22d4a"
+                },
+                {
+                  "group": "left",
+                  "id": "cd90c995-d348-4b9a-bc5d-5572443eb1aa"
+                }
+              ]
+            },
+            "id": "27d67dd0-cf95-4792-a449-a14602e055b7",
+            "zIndex": 20,
+            "data": {
+              "type": "tm.Actor",
+              "name": "dados pessoais",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 395,
+              "y": -245
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "receitas"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "244173d4-940a-4a02-b7a4-1e45731ef59b"
+                },
+                {
+                  "group": "right",
+                  "id": "8d3bad24-8241-43e6-9610-794187b454fc"
+                },
+                {
+                  "group": "bottom",
+                  "id": "0cb9ffac-af43-4260-a914-db3fb2c22d4a"
+                },
+                {
+                  "group": "left",
+                  "id": "cd90c995-d348-4b9a-bc5d-5572443eb1aa"
+                }
+              ]
+            },
+            "id": "a4684bd2-18bc-4d25-a122-38377303f16c",
+            "zIndex": 21,
+            "data": {
+              "type": "tm.Actor",
+              "name": "receitas",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 566.25,
+              "y": -245
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Sistema online\n e aplicativos"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "244173d4-940a-4a02-b7a4-1e45731ef59b"
+                },
+                {
+                  "group": "right",
+                  "id": "8d3bad24-8241-43e6-9610-794187b454fc"
+                },
+                {
+                  "group": "bottom",
+                  "id": "0cb9ffac-af43-4260-a914-db3fb2c22d4a"
+                },
+                {
+                  "group": "left",
+                  "id": "cd90c995-d348-4b9a-bc5d-5572443eb1aa"
+                }
+              ]
+            },
+            "id": "a193017f-4a9f-49e7-aa7c-f5b26122b814",
+            "zIndex": 22,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Sistema online\n e aplicativos",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 135,
+              "y": -360
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "ativos do food-truck"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "68e1b6f3-1d1f-4eb9-a87c-936c60c35074",
+            "zIndex": 23,
+            "data": {
+              "type": "tm.Text",
+              "name": "ativos do food-truck",
               "hasOpenThreats": false
             }
           }
