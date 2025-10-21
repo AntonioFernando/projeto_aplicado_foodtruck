@@ -28,8 +28,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "037dbde9-4baa-4cee-a8d3-56840c4261d3",
             "zIndex": -1,
+            "id": "037dbde9-4baa-4cee-a8d3-56840c4261d3",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -146,7 +146,7 @@
             "data": {
               "type": "tm.Actor",
               "name": "acesso root",
-              "description": "Ganhar acesso ao root/superuser",
+              "description": "Ganhar acesso ao root/superuser\nCWE-200 (Exposure of Sensitive Information)",
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -166,7 +166,7 @@
             },
             "attrs": {
               "text": {
-                "text": "acesso inicial"
+                "text": "TA0001\nacesso inicial"
               },
               "body": {
                 "stroke": "#333333",
@@ -262,7 +262,7 @@
             "id": "1a08c7ac-b968-4426-b534-a14cd8ce5201",
             "data": {
               "type": "tm.Actor",
-              "name": "acesso inicial",
+              "name": "TA0001\nacesso inicial",
               "description": "Conseguir credenciais de conta (usuário e senha) ",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -274,16 +274,16 @@
           },
           {
             "position": {
-              "x": 395,
-              "y": -70
+              "x": 397.5,
+              "y": -90.00000000000001
             },
             "size": {
-              "width": 112.5,
-              "height": 60
+              "width": 110,
+              "height": 80
             },
             "attrs": {
               "text": {
-                "text": "comprometer \nbanco de dados"
+                "text": "T1005 \nData from\n Local System\n comprometer \nbanco de dados"
               },
               "body": {
                 "stroke": "#333333",
@@ -293,6 +293,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -376,11 +377,10 @@
               ]
             },
             "id": "5e61c56b-74d1-4a84-a067-e5e0129cdf14",
-            "zIndex": 4,
             "data": {
               "type": "tm.Actor",
-              "name": "comprometer \nbanco de dados",
-              "description": "",
+              "name": "T1005 \nData from\n Local System\n comprometer \nbanco de dados",
+              "description": "DB PostgreSQL 14 em vm-truck-db\n",
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -410,6 +410,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -493,7 +494,6 @@
               ]
             },
             "id": "7c83799a-a24d-4628-a89e-3b5d79de4aed",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "or",
@@ -520,7 +520,7 @@
             },
             "attrs": {
               "text": {
-                "text": "T1190"
+                "text": "T1190\nexplorar \nvulnerabilidade \nAPI"
               },
               "body": {
                 "stroke": "#333333",
@@ -530,6 +530,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -613,10 +614,9 @@
               ]
             },
             "id": "ccbde21e-437c-4890-bd99-a86374e88c61",
-            "zIndex": 6,
             "data": {
               "type": "tm.Actor",
-              "name": "T1190",
+              "name": "T1190\nexplorar \nvulnerabilidade \nAPI",
               "description": "explorar vulnerabilidade API",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -637,7 +637,7 @@
             },
             "attrs": {
               "text": {
-                "text": "T1078"
+                "text": "T1078\ncontas válidas"
               },
               "body": {
                 "stroke": "#333333",
@@ -647,6 +647,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -730,10 +731,9 @@
               ]
             },
             "id": "0e8b436d-d816-4d99-8965-c58c48d2c5a8",
-            "zIndex": 7,
             "data": {
               "type": "tm.Actor",
-              "name": "T1078",
+              "name": "T1078\ncontas válidas",
               "description": "contas válidas",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -754,7 +754,7 @@
             },
             "attrs": {
               "text": {
-                "text": "TA0004"
+                "text": "TA0004\nescalonamento\n de privilégios"
               },
               "body": {
                 "stroke": "#333333",
@@ -764,6 +764,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -847,10 +848,9 @@
               ]
             },
             "id": "53d28c10-29fb-46f9-8382-d2b3361ffcbb",
-            "zIndex": 9,
             "data": {
               "type": "tm.Actor",
-              "name": "TA0004",
+              "name": "TA0004\nescalonamento\n de privilégios",
               "description": "escalonamento de privilégios",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -992,96 +992,6 @@
             },
             "target": {
               "cell": "0e8b436d-d816-4d99-8965-c58c48d2c5a8",
-              "port": "0cb9ffac-af43-4260-a914-db3fb2c22d4a"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              ""
-            ],
-            "id": "602099c2-dac8-4ddf-9853-ca63a10bf77c",
-            "source": {
-              "cell": "59d9cd39-f869-48dd-a752-6ddc88a8499f",
-              "port": "244173d4-940a-4a02-b7a4-1e45731ef59b"
-            },
-            "target": {
-              "cell": "ccbde21e-437c-4890-bd99-a86374e88c61",
-              "port": "0cb9ffac-af43-4260-a914-db3fb2c22d4a"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              ""
-            ],
-            "id": "b06dbea5-8976-4849-a167-bbad3c94cdd7",
-            "source": {
-              "cell": "cb19f530-a44b-4454-9197-e6da8eb49b9d",
-              "port": "244173d4-940a-4a02-b7a4-1e45731ef59b"
-            },
-            "target": {
-              "cell": "ccbde21e-437c-4890-bd99-a86374e88c61",
               "port": "0cb9ffac-af43-4260-a914-db3fb2c22d4a"
             }
           },
@@ -1869,6 +1779,141 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "b06dbea5-8976-4849-a167-bbad3c94cdd7",
+            "source": {
+              "cell": "cb19f530-a44b-4454-9197-e6da8eb49b9d",
+              "port": "244173d4-940a-4a02-b7a4-1e45731ef59b"
+            },
+            "target": {
+              "cell": "0eef8d37-ee1c-4c59-853d-ce169f4b1b02",
+              "port": "7ec69531-c4f4-47c3-af94-c939a5a83c9d"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "602099c2-dac8-4ddf-9853-ca63a10bf77c",
+            "source": {
+              "cell": "59d9cd39-f869-48dd-a752-6ddc88a8499f",
+              "port": "244173d4-940a-4a02-b7a4-1e45731ef59b"
+            },
+            "target": {
+              "cell": "0eef8d37-ee1c-4c59-853d-ce169f4b1b02",
+              "port": "7ec69531-c4f4-47c3-af94-c939a5a83c9d"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "cba25a01-4893-4846-8360-c9106013dc22",
+            "source": {
+              "cell": "0eef8d37-ee1c-4c59-853d-ce169f4b1b02",
+              "port": "a7984d95-f8be-4e68-a7c7-f32becfb3179"
+            },
+            "target": {
+              "cell": "ccbde21e-437c-4890-bd99-a86374e88c61",
+              "port": "0cb9ffac-af43-4260-a914-db3fb2c22d4a"
+            }
+          },
+          {
             "position": {
               "x": 195,
               "y": 614
@@ -1879,7 +1924,7 @@
             },
             "attrs": {
               "text": {
-                "text": "CWE-259"
+                "text": "CWE-321\nsenha\nhard-coded"
               },
               "body": {
                 "stroke": "#333333",
@@ -1889,6 +1934,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1972,10 +2018,9 @@
               ]
             },
             "id": "f5343770-2922-4f74-b774-3c69d9ea4899",
-            "zIndex": 11,
             "data": {
               "type": "tm.Actor",
-              "name": "CWE-259",
+              "name": "CWE-321\nsenha\nhard-coded",
               "description": "tests/test_api_users.py\ntests/test_auth/test_token_api.py",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -1996,7 +2041,7 @@
             },
             "attrs": {
               "text": {
-                "text": "T1566"
+                "text": "T1566\nphishing"
               },
               "body": {
                 "stroke": "#333333",
@@ -2006,6 +2051,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -2089,10 +2135,9 @@
               ]
             },
             "id": "2e39bcbf-e745-4fa3-9548-4874d25bba13",
-            "zIndex": 12,
             "data": {
               "type": "tm.Actor",
-              "name": "T1566",
+              "name": "T1566\nphishing",
               "description": "phishing, engenharia social \n",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -2123,6 +2168,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -2219,8 +2265,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 15
+            }
           },
           {
             "position": {
@@ -2233,7 +2278,7 @@
             },
             "attrs": {
               "text": {
-                "text": "xss"
+                "text": "CWE-79\nxss"
               },
               "body": {
                 "stroke": "#333333",
@@ -2243,6 +2288,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -2326,10 +2372,9 @@
               ]
             },
             "id": "59d9cd39-f869-48dd-a752-6ddc88a8499f",
-            "zIndex": 16,
             "data": {
               "type": "tm.Actor",
-              "name": "xss",
+              "name": "CWE-79\nxss",
               "description": "ausência de CSP, HSTS, anti-clickjacking e X-Content-Type-Options",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -2350,7 +2395,7 @@
             },
             "attrs": {
               "text": {
-                "text": "clickjacking"
+                "text": "CWE-693\nclickjacking"
               },
               "body": {
                 "stroke": "#333333",
@@ -2360,6 +2405,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -2443,10 +2489,9 @@
               ]
             },
             "id": "cb19f530-a44b-4454-9197-e6da8eb49b9d",
-            "zIndex": 17,
             "data": {
               "type": "tm.Actor",
-              "name": "clickjacking",
+              "name": "CWE-693\nclickjacking",
               "description": "ausência de CSP, HSTS, anti-clickjacking e X-Content-Type-Options",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -2477,6 +2522,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 18,
             "ports": {
               "groups": {
                 "top": {
@@ -2573,8 +2619,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 18
+            }
           },
           {
             "position": {
@@ -2592,8 +2637,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "b02b3937-5b11-4408-870f-e85ee2873239",
             "zIndex": 19,
+            "id": "b02b3937-5b11-4408-870f-e85ee2873239",
             "data": {
               "type": "tm.Text",
               "name": "Árvore de ataque \npara web app food-truck\nutilizando o sistema de\n modelagem Mitr3 Attack\n e Common Vulnerabilities and \nExposure (CVE)",
@@ -2621,6 +2666,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 20,
             "ports": {
               "groups": {
                 "top": {
@@ -2704,7 +2750,6 @@
               ]
             },
             "id": "27d67dd0-cf95-4792-a449-a14602e055b7",
-            "zIndex": 20,
             "data": {
               "type": "tm.Actor",
               "name": "dados pessoais",
@@ -2738,6 +2783,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 21,
             "ports": {
               "groups": {
                 "top": {
@@ -2821,7 +2867,6 @@
               ]
             },
             "id": "a4684bd2-18bc-4d25-a122-38377303f16c",
-            "zIndex": 21,
             "data": {
               "type": "tm.Actor",
               "name": "receitas\n secretas",
@@ -2855,6 +2900,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 22,
             "ports": {
               "groups": {
                 "top": {
@@ -2938,7 +2984,6 @@
               ]
             },
             "id": "a193017f-4a9f-49e7-aa7c-f5b26122b814",
-            "zIndex": 22,
             "data": {
               "type": "tm.Actor",
               "name": "Sistema online\n e aplicativos",
@@ -2967,8 +3012,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "68e1b6f3-1d1f-4eb9-a87c-936c60c35074",
             "zIndex": 23,
+            "id": "68e1b6f3-1d1f-4eb9-a87c-936c60c35074",
             "data": {
               "type": "tm.Text",
               "name": "ativos do food-truck",
@@ -2986,7 +3031,7 @@
             },
             "attrs": {
               "text": {
-                "text": "T1596"
+                "text": "T1596\nOSINT\nGitHub"
               },
               "body": {
                 "stroke": "#333333",
@@ -2996,6 +3041,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 24,
             "ports": {
               "groups": {
                 "top": {
@@ -3079,10 +3125,9 @@
               ]
             },
             "id": "00a5f196-d51e-4b09-b00c-4fd249f0f194",
-            "zIndex": 24,
             "data": {
               "type": "tm.Actor",
-              "name": "T1596",
+              "name": "T1596\nOSINT\nGitHub",
               "description": "Procurar banco de dados técnicos abertos. (Github)",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -3103,7 +3148,7 @@
             },
             "attrs": {
               "text": {
-                "text": "T1589"
+                "text": "T1589\nOSINT\npessoal"
               },
               "body": {
                 "stroke": "#333333",
@@ -3113,6 +3158,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 25,
             "ports": {
               "groups": {
                 "top": {
@@ -3196,10 +3242,9 @@
               ]
             },
             "id": "75a239b3-da80-4589-9ecc-3bb206930ba3",
-            "zIndex": 25,
             "data": {
               "type": "tm.Actor",
-              "name": "T1589",
+              "name": "T1589\nOSINT\npessoal",
               "description": "pesquisar informações de identidade  da vítima",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -3230,6 +3275,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 26,
             "ports": {
               "groups": {
                 "top": {
@@ -3313,7 +3359,6 @@
               ]
             },
             "id": "a422f389-9a5a-4d85-9390-21ecb3ebc73f",
-            "zIndex": 26,
             "data": {
               "type": "tm.Actor",
               "name": "agente malicioso",
@@ -3347,6 +3392,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 27,
             "ports": {
               "groups": {
                 "top": {
@@ -3430,7 +3476,6 @@
               ]
             },
             "id": "375b92ff-f56c-4026-959c-574f7a88c88f",
-            "zIndex": 27,
             "data": {
               "type": "tm.Actor",
               "name": "CWE-327",
@@ -3464,6 +3509,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 28,
             "ports": {
               "groups": {
                 "top": {
@@ -3560,8 +3606,124 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 620,
+              "y": 376
             },
-            "zIndex": 28
+            "size": {
+              "width": 160,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "ausência de CSP,\n HSTS,\n anti-clickjacking e \nX-Content-Type-Options"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "a7984d95-f8be-4e68-a7c7-f32becfb3179"
+                },
+                {
+                  "group": "right",
+                  "id": "6304e923-48dc-4198-aa03-a7151161df5c"
+                },
+                {
+                  "group": "bottom",
+                  "id": "7ec69531-c4f4-47c3-af94-c939a5a83c9d"
+                },
+                {
+                  "group": "left",
+                  "id": "e85091ca-d469-4a36-b6b4-faca22ba5188"
+                }
+              ]
+            },
+            "id": "0eef8d37-ee1c-4c59-853d-ce169f4b1b02",
+            "zIndex": 29,
+            "data": {
+              "type": "tm.Actor",
+              "name": "ausência de CSP,\n HSTS,\n anti-clickjacking e \nX-Content-Type-Options",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
           }
         ]
       }
