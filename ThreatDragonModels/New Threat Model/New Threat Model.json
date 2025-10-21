@@ -520,7 +520,7 @@
             },
             "attrs": {
               "text": {
-                "text": "T1190\nexplorar \nvulnerabilidade \nAPI"
+                "text": "T1190\nexplorar uma\n aplicação"
               },
               "body": {
                 "stroke": "#333333",
@@ -616,7 +616,7 @@
             "id": "ccbde21e-437c-4890-bd99-a86374e88c61",
             "data": {
               "type": "tm.Actor",
-              "name": "T1190\nexplorar \nvulnerabilidade \nAPI",
+              "name": "T1190\nexplorar uma\n aplicação",
               "description": "explorar vulnerabilidade API",
               "isTrustBoundary": false,
               "outOfScope": false,
