@@ -4319,7 +4319,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Comprometer\n o sistema/\nprodutividade"
+                "text": "Objetivo\nComprometer\n o sistema/\nprodutividade"
               },
               "body": {
                 "stroke": "#333333",
@@ -4415,7 +4415,7 @@
             "zIndex": 32,
             "data": {
               "type": "tm.Actor",
-              "name": "Comprometer\n o sistema/\nprodutividade",
+              "name": "Objetivo\nComprometer\n o sistema/\nprodutividade",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
