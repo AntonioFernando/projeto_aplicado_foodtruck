@@ -1207,7 +1207,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "acesso",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1220,7 +1220,7 @@
               "threats": []
             },
             "labels": [
-              "Data Flow"
+              "acesso"
             ],
             "id": "3bba0add-dde4-402f-8fa0-eeff2ee0eea5",
             "source": {
@@ -1252,7 +1252,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "acesso",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1265,7 +1265,7 @@
               "threats": []
             },
             "labels": [
-              "Data Flow"
+              "acesso"
             ],
             "id": "6f58f7a3-0dae-43fa-a59e-c996653b95c7",
             "source": {
@@ -1297,7 +1297,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "acesso",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1310,7 +1310,7 @@
               "threats": []
             },
             "labels": [
-              "Data Flow"
+              "acesso"
             ],
             "id": "08d1ca95-a096-4a6c-849c-af285272888c",
             "source": {
@@ -1910,6 +1910,102 @@
             },
             "target": {
               "cell": "ccbde21e-437c-4890-bd99-a86374e88c61",
+              "port": "0cb9ffac-af43-4260-a914-db3fb2c22d4a"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "vetor de ataque",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "vetor de ataque"
+            ],
+            "id": "e19b75b4-f9d0-470d-9cf3-e5c3c6c99246",
+            "source": {
+              "cell": "a422f389-9a5a-4d85-9390-21ecb3ebc73f",
+              "port": "cd90c995-d348-4b9a-bc5d-5572443eb1aa"
+            },
+            "target": {
+              "cell": "7e4dd82d-3dc8-4b8c-a6d6-841748b1babd",
+              "port": "6304e923-48dc-4198-aa03-a7151161df5c"
+            },
+            "vertices": [
+              {
+                "x": 700,
+                "y": 820
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "18571fbc-511e-475b-9676-cab7a3db44ee",
+            "source": {
+              "cell": "7e4dd82d-3dc8-4b8c-a6d6-841748b1babd",
+              "port": "a7984d95-f8be-4e68-a7c7-f32becfb3179"
+            },
+            "target": {
+              "cell": "375b92ff-f56c-4026-959c-574f7a88c88f",
               "port": "0cb9ffac-af43-4260-a914-db3fb2c22d4a"
             }
           },
@@ -2623,8 +2719,8 @@
           },
           {
             "position": {
-              "x": 92.5,
-              "y": -100
+              "x": 851.25,
+              "y": -10.000000000000014
             },
             "size": {
               "width": 190,
@@ -3382,7 +3478,7 @@
             },
             "attrs": {
               "text": {
-                "text": "CWE-327"
+                "text": "CWE-327\ncriptografia\narriscada"
               },
               "body": {
                 "stroke": "#333333",
@@ -3478,7 +3574,7 @@
             "id": "375b92ff-f56c-4026-959c-574f7a88c88f",
             "data": {
               "type": "tm.Actor",
-              "name": "CWE-327",
+              "name": "CWE-327\ncriptografia\narriscada",
               "description": "Algoritmo de Criptografia Quebrado ou Arriscado",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -3716,6 +3812,123 @@
             "data": {
               "type": "tm.Actor",
               "name": "ausência de CSP,\n HSTS,\n anti-clickjacking e \nX-Content-Type-Options",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 369,
+              "y": 790
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "T1040\nsniffing de rede"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "a7984d95-f8be-4e68-a7c7-f32becfb3179"
+                },
+                {
+                  "group": "right",
+                  "id": "6304e923-48dc-4198-aa03-a7151161df5c"
+                },
+                {
+                  "group": "bottom",
+                  "id": "7ec69531-c4f4-47c3-af94-c939a5a83c9d"
+                },
+                {
+                  "group": "left",
+                  "id": "e85091ca-d469-4a36-b6b4-faca22ba5188"
+                }
+              ]
+            },
+            "id": "7e4dd82d-3dc8-4b8c-a6d6-841748b1babd",
+            "zIndex": 30,
+            "data": {
+              "type": "tm.Actor",
+              "name": "T1040\nsniffing de rede",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
