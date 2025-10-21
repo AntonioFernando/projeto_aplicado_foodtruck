@@ -2258,8 +2258,8 @@
               "cell": "52c814af-35ea-4eb5-8278-dfd612d58e16"
             },
             "target": {
-              "cell": "dab305f2-ff97-480a-a69e-9292dda90b92",
-              "port": "e5885367-9fc0-4bac-bce2-6195be6df2a4"
+              "x": 970,
+              "y": 230
             }
           },
           {
@@ -4194,7 +4194,7 @@
           {
             "position": {
               "x": 828.5,
-              "y": -10.000000000000014
+              "y": -110.00000000000001
             },
             "size": {
               "width": 112.5,
@@ -4311,7 +4311,7 @@
           {
             "position": {
               "x": 1001,
-              "y": -10.000000000000014
+              "y": -110.00000000000001
             },
             "size": {
               "width": 112.5,
@@ -4428,7 +4428,7 @@
           {
             "position": {
               "x": 941,
-              "y": -10.000000000000014
+              "y": 130
             },
             "size": {
               "width": 60,
@@ -4571,8 +4571,8 @@
           },
           {
             "position": {
-              "x": 915,
-              "y": 140
+              "x": 914.75,
+              "y": 330
             },
             "size": {
               "width": 112.5,
@@ -4592,6 +4592,360 @@
               "name": "FIM",
               "hasOpenThreats": false
             }
+          },
+          {
+            "position": {
+              "x": 1001.25,
+              "y": 130
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "T1485\ndestruição de \ndados"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "a7984d95-f8be-4e68-a7c7-f32becfb3179"
+                },
+                {
+                  "group": "right",
+                  "id": "6304e923-48dc-4198-aa03-a7151161df5c"
+                },
+                {
+                  "group": "bottom",
+                  "id": "7ec69531-c4f4-47c3-af94-c939a5a83c9d"
+                },
+                {
+                  "group": "left",
+                  "id": "e85091ca-d469-4a36-b6b4-faca22ba5188"
+                }
+              ]
+            },
+            "id": "5a5769e3-4007-408e-bce2-e7fb45b6f3bd",
+            "zIndex": 36,
+            "data": {
+              "type": "tm.Actor",
+              "name": "T1485\ndestruição de \ndados",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 828.75,
+              "y": 130
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "T1565\nManipulação\nde dados"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "a7984d95-f8be-4e68-a7c7-f32becfb3179"
+                },
+                {
+                  "group": "right",
+                  "id": "6304e923-48dc-4198-aa03-a7151161df5c"
+                },
+                {
+                  "group": "bottom",
+                  "id": "7ec69531-c4f4-47c3-af94-c939a5a83c9d"
+                },
+                {
+                  "group": "left",
+                  "id": "e85091ca-d469-4a36-b6b4-faca22ba5188"
+                }
+              ]
+            },
+            "id": "089f9c4a-a714-4061-8795-379aa10c4ff5",
+            "zIndex": 37,
+            "data": {
+              "type": "tm.Actor",
+              "name": "T1565\nManipulação\nde dados",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 941,
+              "y": -110.00000000000001
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "AND"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "4d7b22d4-fe42-453d-a9eb-bcd869152050"
+                },
+                {
+                  "group": "right",
+                  "id": "34d1d8f5-6195-4e99-b9c7-148cdbb679f0"
+                },
+                {
+                  "group": "bottom",
+                  "id": "e5885367-9fc0-4bac-bce2-6195be6df2a4"
+                },
+                {
+                  "group": "left",
+                  "id": "2fd02e8f-baee-4904-8f01-dbf2fa30a73e"
+                }
+              ]
+            },
+            "id": "71d1b5ee-2648-497d-846c-2d29623a052e",
+            "data": {
+              "type": "tm.Process",
+              "name": "AND",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            },
+            "zIndex": 38
           }
         ]
       }
